@@ -1,0 +1,24 @@
+.ic{
+    width: 25px;
+    height: 25px;
+}
+.ic1{
+    width: 15px;
+    height: 15px;
+}
+.img-fluid{
+    width: 50px;
+}
+.container{
+    margin-top: 10rem;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.offcanvas-body{
+    text-align: left;
+}

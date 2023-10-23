@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto; /* This enables vertical scroll */
+}
+
+/* Media query for iPad-sized screens and larger */
+@media (min-width: 768px) {
+    body {
+        overflow-y: auto; /* Enable scroll for laptop and iPad-sized screens */
+    }
+}
+
+/* Media query for mobile screens in portrait orientation */
+@media (max-width: 767px) and (orientation: portrait) {
+    body {
+        overflow-y: hidden; /* Lock scroll in portrait orientation */
+    }
+}
+
+
+
+
+
+
+
+
+.cardd{
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 20px;
+    width:350px;
+    height: 150px ;
+    margin-left: 0;
+    margin-right: 0;
+   
+   
+   align-items: center;
+   justify-items: center;
+   justify-content: center;
+  
+  
+   
+}
+
+.jj{
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+}
+
+.title{
+    margin-right: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+  
+}
+
+.boxx{
+    text-align: center; 
+   
+  
+}
+
+.imgicon{
+    
+    background-color: white;
+    padding: 12px;
+}
+.tend{
+    margin-top: 10px;
+    color: white;
+}
